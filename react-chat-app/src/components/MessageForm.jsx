@@ -1,8 +1,14 @@
 const MyMessageForm = () =>{
+    const handleSubmit = () =>{
+
+    }
     return (
-        <div>
-            Message Forms
-        </div>
+        
+        <form className="message-form" onSubmit={handleSubmit}>
+            <input
+                className="message-input"            
+            />
+        </form>
     )
 }
 
